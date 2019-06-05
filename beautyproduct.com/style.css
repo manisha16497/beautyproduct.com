@@ -1,0 +1,391 @@
+body{
+	background-image:url(images/bg.jpg);
+	background-size:100% 900px;
+	padding:0;
+	margin:0;
+  background-attachment:fixed; 
+	}
+	
+nav{width:100%;
+	height:280px;
+	float:left;
+	background-color:rgba(0,0,0,0.8);
+	box-sizing:border-box;
+	padding:50;}
+	
+#welcome{
+	     color:white;
+         text-align:center;
+          font-size:80px;
+		  padding:0;
+		  margin:0;}
+
+#navbar{
+	    width:900px;
+        box-sizing:border-box; 
+       margin-top:20px;
+        }
+
+ #nav-item{
+ 	      width:20%;
+          height:80px;
+      box-sizing:border-box;
+      border-color:white;
+      border-style:solid;
+      border-width:1px;
+      text-align:center;
+      text-decoration:none;}
+
+  a{
+  	color:white;
+  	text-decoration:none;
+  	font-family:sans-serif;
+  	font-size:20px;
+   }
+
+section{
+	   width:800px;
+	   height:478px;
+	   box-sizing:border-box;
+	   float:right;
+	   background-image:url(images/section-bg.png);
+       padding:100px;
+       }
+
+ #logo{
+ 	   width:220px;
+       height:200px;
+       margin-left:150px;
+      }
+
+#logo-text{
+	       text-align:center;
+	       font-size:150px;
+	       color:white;
+	       padding:0;
+	       margin:0;
+	       font-family:vardana;
+           }
+
+#domain-name{color:white;
+	         font-family:sans-serif;
+	         font-size:60px;
+	         padding:0;
+	         margin:0; 
+	         font-weight:bold;
+	         margin-left:50px;
+             }
+
+#fieldset-login{
+	            width:500px;
+	            height:350px;
+	            box-sizing:border-box;
+	            border-width:3px;
+	            border-style:solid;
+	            border-color:white;
+	            float:left;
+	            margin-left:140px;
+	            margin:top;
+	            padding:30px;
+                }
+
+  #login-legend{color:white;
+  	            font-family:sans-serif;
+  	            font-size:35px;
+  	            font-weight:bold;
+                }                            
+
+    #login-form{color:white;
+                font-family:sans-serif;
+                font-size:20px; 
+               }              
+
+    #username{width:450px;
+              height:40px;
+              box-sizing:border-box;
+              background-color:inherit;
+              border-width:2px;
+              border-style:solid;
+              border-color:white;
+              margin:5px;
+              color:white;
+              font-size:15px;
+              padding:10px;
+             }    
+  
+   #password{width:450px;
+             height:40px;
+             box-sizing:border-box;
+             background-color:inherit;
+             border-width:2px;
+             border-style:solid;
+             border-color:white;  
+             margin:5px;  
+             color:white;
+             font-size:15px; 
+             padding:10px;      
+            }
+
+ #login-btn{float:right;
+ 	        width:110px;
+ 	        height:40px;
+ 	        border-width:2px;
+ 	        border-style:solid;
+ 	        border-color:white;
+ 	        margin-top:25px;
+ 	        background-color:inherit;
+ 	        color:white;
+ 	        }          
+
+  #fieldset-signup{ width:600px;
+              height:380px;
+              box-sizing:border-box;
+              border-width:3px;
+              border-style:solid;
+              border-color:white;
+              float:left;
+              margin-left:100px;
+              margin:top; 
+                         }        
+#signup-legend {color:white;
+                font-family:sans-serif;
+                font-size:25px;
+                font-weight:bold;
+                }
+                      
+#Costomer-name{width:550px;
+              height:30px;
+              box-sizing:border-box;
+              background-color:inherit;
+              border-width:2px;
+              border-style:solid;
+              border-color:white;
+              margin:5px;
+              color:white;
+              font-size:15px;
+              padding:10px;}
+
+#signup-form{color:white;
+           font-family:sans-serif;
+           font-size:18px; 
+           line-height:28px; 
+           color:white;
+           }
+
+#sign-up-btn{float:right;
+          width:110px;
+          height:40px;
+          border-width:2px;
+          border-style:solid;
+          border-color:white;
+          margin-top:25px;
+          background-color:inherit;
+          color:white;
+           font-weight:bold;
+           font-size:15px;  }
+
+
+#contact{color:white;
+         font-size:25px;
+         line-height:35px;
+        }
+                      
+#pro-section{width:100%;
+             height:800px;
+             box-sizing:border-box;
+             background-color:rgba(255,255,255,0.8);
+              
+            }                      
+
+#brand-section{font-size:40px;
+               font-family:century gothic;
+               text-align:center;}
+
+
+#brand-pic{width:205px;
+           height:85px;
+           border-width:3px;
+           border-color:#323232;
+           border-style:solid;
+           float:left;
+           box-sizing:border-box; 
+           background-color:white;
+           margin:30px; 
+           margin-top:20px;
+           }
+
+#search{width:60%;
+       height:60px;
+       box-sizing:border-box;
+       float:left;
+       margin-left:20%;
+       margin-right:20%;
+       margin-top:50px; 
+       border-width:2px;
+       border-style:solid;
+       border-color:#ccc;
+       font-size:16px;
+       padding:8px;
+       background-image:url(images/search.png);
+       background-size:40px, 40px;
+       background-repeat:no-repeat;
+       background-position:right;
+      }
+
+#zest-products{width:100%;
+                 height:500px;
+                 float:left;
+                 box-sizing:border-box;
+                 background-color:rgba(0,0,0,0.8);
+                 }    
+
+#zest-header{color:white;
+             font-size:40px;
+             font-family:sans-serif;
+             text-align:center;
+             }                   
+
+#zest-goods{width:250px;
+            height:300px;
+            float:left;
+            box-sizing:border-box;
+            border-width:2px;
+            border-style:solid;
+            border-color:white;
+            margin:40px;
+            margin-top:20px;
+            }
+
+#dove-products{width:100%;
+                 height:500px;
+                 float:left;
+                 box-sizing:border-box;
+                 background-color:rgba(0,0,0,0.8);
+                 }    
+
+#dove-header{color:white;
+             font-size:40px;
+             font-family:sans-serif;
+             text-align:center;
+             }                   
+
+#dove-goods{width:250px;
+            height:300px;
+            float:left;
+            box-sizing:border-box;
+            border-width:2px;
+            border-style:solid;
+            border-color:white;
+            margin:40px;
+            margin-top:20px;
+            }
+
+#beauty-products{width:100%;
+                 height:500px;
+                 float:left;
+                 box-sizing:border-box;
+                 background-color:rgba(0,0,0,0.8);
+                 }    
+
+#beauty-header{color:white;
+             font-size:40px;
+             font-family:sans-serif;
+             text-align:center;
+             }                   
+
+#beauty-goods{width:250px;
+            height:300px;
+            float:left;
+            box-sizing:border-box;
+            border-width:2px;
+            border-style:solid;
+            border-color:white;
+            margin:40px;
+            margin-top:20px;
+            }
+
+#personacare-products{width:100%;
+                 height:500px;
+                 float:left;
+                 box-sizing:border-box;
+                 background-color:rgba(0,0,0,0.8);
+                 }    
+
+#personacare-header{color:white;
+             font-size:40px;
+             font-family:sans-serif;
+             text-align:center;
+             }                   
+
+#personacare-goods{width:250px;
+            height:300px;
+            float:left;
+            box-sizing:border-box;
+            border-width:2px;
+            border-style:solid;
+            border-color:white;
+            margin:40px;
+            margin-top:20px;
+            }
+
+#amica-products{width:100%;
+                 height:500px;
+                 float:left;
+                 box-sizing:border-box;
+                 background-color:rgba(0,0,0,0.8);
+                 }    
+
+#amica-header{color:white;
+             font-size:40px;
+             font-family:sans-serif;
+             text-align:center;
+             }                   
+
+#amica-goods{width:250px;
+            height:300px;
+            float:left;
+            box-sizing:border-box;
+            border-width:2px;
+            border-style:solid;
+            border-color:white;
+            margin:40px;
+            margin-top:20px;
+            }
+
+#product-footer{width:100%;
+            height:50px;
+            float:left;
+            box-sizing:border-box;
+           background-color:rgba(255,255,255,0.8);
+            }
+#product-name{font-family:sans-serif;
+              font-size:20px;
+              padding:0;
+              margin:0;
+              color:white;
+              text-align:center;
+              margin-top:3px;
+            }
+
+#product-price{font-family:sans-serif;
+              margin-left:8px;
+             color:white;
+            margin-top:5px;
+            float:left;
+            }
+
+#shopping-cart{color:white;
+               float:right;
+               margin-top:5px; 
+               font-family:sans-serif;
+               margin-right:8px;
+              }            
+
+#footer-text{font-family:sans-serif;
+             text-align:center;
+             padding:0;
+             margin:0;
+             margin-top:20px;
+             font-weight:bold;
+
+}            
